@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1697509430423
+current_stage: None
+description: null
+last_updated_timestamp: 1697509430423
+name: ElasticnetModel
+run_id: 79297859e62a4dae986ab02bbda0f1c4
+run_link: null
+source: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/79297859e62a4dae986ab02bbda0f1c4/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 2

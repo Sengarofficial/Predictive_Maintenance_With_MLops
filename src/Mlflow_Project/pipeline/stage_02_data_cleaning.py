@@ -7,7 +7,7 @@ from src.Mlflow_Project import logger
 
 STAGE_NAME = "Data Cleaning Stage"
 
-class DataIngestionCleaningPipeline:
+class DataCleaningPipeline:
     def __init__(self):
         pass 
 
@@ -22,7 +22,7 @@ class DataIngestionCleaningPipeline:
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<<")
-        obj = DataIngestionCleaningPipeline()
+        obj = DataCleaningPipeline()
         obj.main()
         logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<")
     except Exception as e:

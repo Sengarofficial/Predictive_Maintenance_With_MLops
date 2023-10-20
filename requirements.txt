@@ -5,7 +5,6 @@ seaborn
 scikit-learn 
 scipy
 mlflow
-mlflow.sklearn
 python-box
 PyYAML
 tqdm
@@ -14,3 +13,4 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
+# -e .

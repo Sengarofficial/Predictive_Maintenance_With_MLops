@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/eef287f2a03a4953b028ef72e878d13c/artifacts
+deleted_time: 1697541733927
+end_time: 1697515104598
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: eef287f2a03a4953b028ef72e878d13c
+run_name: respected-lamb-102
+run_uuid: eef287f2a03a4953b028ef72e878d13c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697515083037
+status: 3
+tags: []
+user_id: admin

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/79297859e62a4dae986ab02bbda0f1c4/artifacts
+deleted_time: 1697541733925
+end_time: 1697509430571
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 79297859e62a4dae986ab02bbda0f1c4
+run_name: spiffy-mare-864
+run_uuid: 79297859e62a4dae986ab02bbda0f1c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697509410306
+status: 3
+tags: []
+user_id: admin

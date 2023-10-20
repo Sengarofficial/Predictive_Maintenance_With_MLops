@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/6450b8c45ed04d6e90c1d7423d73ec55/artifacts
+deleted_time: 1697541733924
+end_time: 1697259334229
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6450b8c45ed04d6e90c1d7423d73ec55
+run_name: fearless-dog-444
+run_uuid: 6450b8c45ed04d6e90c1d7423d73ec55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697259315996
+status: 3
+tags: []
+user_id: admin

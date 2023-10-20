@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/6e8b0215e9a54cbfbff1a30af1bcff51/artifacts
+deleted_time: 1697541733945
+end_time: 1697258939520
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6e8b0215e9a54cbfbff1a30af1bcff51
+run_name: grandiose-hawk-7
+run_uuid: 6e8b0215e9a54cbfbff1a30af1bcff51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697258939151
+status: 4
+tags: []
+user_id: admin

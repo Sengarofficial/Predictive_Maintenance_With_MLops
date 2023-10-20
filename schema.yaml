@@ -1,0 +1,21 @@
+COLUMNS:
+  engine: int64
+  cycle: int64
+  setting_1: float64
+  setting_2: float64
+  (LPC outlet temperature) (◦R): float64
+  (LPT outlet temperature) (◦R): float64
+  (bypass-duct pressure) (psia): float64
+  (HPC outlet pressure) (psia): float64
+  (Physical core speed) (rpm): float64
+  (HPC outlet Static pressure) (psia): float64
+  (Ratio of fuel flow to Ps30) (pps/psia): float64
+  (Bypass Ratio): float64
+  (Bleed Enthalpy): int64
+  (High-pressure turbines Cool air flow): float64
+  (Low-pressure turbines Cool air flow): float64
+  RUL: int64
+
+
+TARGET_COLUMN:
+  name: RUL
