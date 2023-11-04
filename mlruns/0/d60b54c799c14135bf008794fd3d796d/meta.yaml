@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/d60b54c799c14135bf008794fd3d796d/artifacts
+end_time: 1698728046439
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d60b54c799c14135bf008794fd3d796d
+run_name: judicious-fly-676
+run_uuid: d60b54c799c14135bf008794fd3d796d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698728046040
+status: 4
+tags: []
+user_id: admin

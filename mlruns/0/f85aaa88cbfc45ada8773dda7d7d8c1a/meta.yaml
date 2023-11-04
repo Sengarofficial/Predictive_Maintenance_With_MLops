@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/f85aaa88cbfc45ada8773dda7d7d8c1a/artifacts
+end_time: 1698742978426
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f85aaa88cbfc45ada8773dda7d7d8c1a
+run_name: nebulous-moose-994
+run_uuid: f85aaa88cbfc45ada8773dda7d7d8c1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698742977802
+status: 4
+tags: []
+user_id: admin

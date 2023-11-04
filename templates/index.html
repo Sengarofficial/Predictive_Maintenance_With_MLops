@@ -36,13 +36,13 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('static/assets/img/wine.jpg')">
+        <header class="masthead" style="background-image: url('static/assets/img/jet_engine.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
                             <h1>RUL Prediction</h1>
-                            <span class="subheading">RUL prediction Web App</span>
+                            <span class="subheading">Engine's Remaining Useful life prediction Web App</span>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
 </head>
 <body class="form-v9">
 	<div class="page-content">
-		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
+		<div class="form-v9-content" style="background-image: url('')">
 			<form class="form-detail" action="/predict" method="post">
 				<h2>Please Fill The Information</h2>
 				<div class="form-row-total">
@@ -105,8 +105,8 @@
 
 
                     <div class="form-row">
-                        <label for="(LPC outlet temperature) (◦R)"> (LPC outlet temperature) (◦R):</label>
-						<input type="text" name="(LPC outlet temperature) (◦R)" id="(LPC outlet temperature) (◦R)" class="input-text" placeholder="(LPC outlet temperature) (◦R)" required>
+                        <label for="LPC_outlet_temperature_degR"> LPC_outlet_temperature_degR:</label>
+						<input type="text" name="LPC_outlet_temperature_degR" id="LPC_outlet_temperature_degR" class="input-text" placeholder="LPC_outlet_temperature_degR" required>
 					</div>
 
 				</div>
@@ -115,28 +115,13 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="(LPT outlet temperature) (◦R)"> (LPT outlet temperature) (◦R):</label>
-						<input type="text" name="(LPT outlet temperature) (◦R)" id="(LPT outlet temperature) (◦R)" class="input-text" placeholder="(LPT outlet temperature) (◦R)" required>
+                        <label for="LPT_outlet_temperature_degR"> LPT_outlet_temperature_degR:</label>
+						<input type="text" name="LPT_outlet_temperature_degR" id="LPT_outlet_temperature_degR" class="input-text" placeholder="LPT_outlet_temperature_degR" required>
 					</div>
 
                     <div class="form-row">
-                        <label for="(bypass-duct pressure) (psia)"> (bypass-duct pressure) (psia):</label>
-						<input type="text" name="(bypass-duct pressure) (psia)" id="(bypass-duct pressure) (psia)" class="input-text" placeholder="(bypass-duct pressure) (psia)" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="(HPC outlet pressure) (psia)"> (HPC outlet pressure) (psia):</label>
-						<input type="text" name="(HPC outlet pressure) (psia)" id="(HPC outlet pressure) (psia)" class="input-text" placeholder="(HPC outlet pressure) (psia)" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="(Physical core speed) (rpm)"> (Physical core speed) (rpm):</label>
-						<input type="text" name="(Physical core speed) (rpm)" id="(Physical core speed) (rpm)" class="input-text" placeholder="(Physical core speed) (rpm)" required>
+                        <label for="bypass_duct_pressure_psia"> bypass_duct_pressure_psia:</label>
+						<input type="text" name="bypass_duct_pressure_psia" id="bypass_duct_pressure_psia" class="input-text" placeholder="bypass_duct_pressure_psia" required>
 					</div>
 
 				</div>
@@ -145,10 +130,14 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="(HPC outlet Static pressure) (psia)"> (HPC outlet Static pressure) (psia):</label>
-						<input type="text" name="(HPC outlet Static pressure) (psia)" id="(HPC outlet Static pressure) (psia)" class="input-text" placeholder="(HPC outlet Static pressure) (psia)" required>
+                        <label for="HPC_outlet_pressure_psia"> HPC_outlet_pressure_psia:</label>
+						<input type="text" name="HPC_outlet_pressure_psia" id="HPC_outlet_pressure_psia" class="input-text" placeholder="HPC_outlet_pressure_psia" required>
 					</div>
 
+                    <div class="form-row">
+                        <label for="Physical_core_speed_rpm"> Physical_core_speed_rpm:</label>
+						<input type="text" name="Physical_core_speed_rpm" id="Physical_core_speed_rpm" class="input-text" placeholder="Physical_core_speed_rpm" required>
+					</div>
 
 				</div>
 
@@ -156,8 +145,8 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="(Ratio of fuel flow to Ps30) (pps/psia)"> (Ratio of fuel flow to Ps30) (pps/psia):</label>
-						<input type="text" name="(Ratio of fuel flow to Ps30) (pps/psia)" id="(Ratio of fuel flow to Ps30) (pps/psia)" class="input-text" placeholder="(Ratio of fuel flow to Ps30) (pps/psia)" required>
+                        <label for="HPC_outlet_Static_pressure_psia"> HPC_outlet_Static_pressure_psia:</label>
+						<input type="text" name="HPC_outlet_Static_pressure_psia" id="HPC_outlet_Static_pressure_psia" class="input-text" placeholder="HPC_outlet_Static_pressure_psia" required>
 					</div>
 
 
@@ -167,8 +156,19 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="(Bypass Ratio)"> (Bypass Ratio):</label>
-						<input type="text" name="(Bypass Ratio)" id="(Bypass Ratio)" class="input-text" placeholder="(Bypass Ratio)" required>
+                        <label for="Ratio_of_fuel_flow_to_Ps30_pps_psia"> Ratio_of_fuel_flow_to_Ps30_pps_psia:</label>
+						<input type="text" name="Ratio_of_fuel_flow_to_Ps30_pps_psia" id="Ratio_of_fuel_flow_to_Ps30_pps_psia" class="input-text" placeholder="Ratio_of_fuel_flow_to_Ps30_pps_psia" required>
+					</div>
+
+
+				</div>
+
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="Bypass_Ratio"> Bypass_Ratio:</label>
+						<input type="text" name="Bypass_Ratio" id="Bypass_Ratio" class="input-text" placeholder="Bypass_Ratio" required>
 					</div>
 
 
@@ -178,8 +178,8 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="(Bleed Enthalpy)"> (Bleed Enthalpy):</label>
-						<input type="text" name="(Bleed Enthalpy)" id="(Bleed Enthalpy)" class="input-text" placeholder="(Bleed Enthalpy)" required>
+                        <label for="Bleed_Enthalpy"> Bleed_Enthalpy:</label>
+						<input type="text" name="Bleed_Enthalpy" id="Bleed_Enthalpy" class="input-text" placeholder="Bleed_Enthalpy" required>
 					</div>
 
 
@@ -189,8 +189,8 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="(High-pressure turbines Cool air flow)"> (High-pressure turbines Cool air flow):</label>
-						<input type="text" name="(High-pressure turbines Cool air flow)" id="(High-pressure turbines Cool air flow)" class="input-text" placeholder="(High-pressure turbines Cool air flow)" required>
+                        <label for="High_pressure_turbines_Cool_air_flow"> High_pressure_turbines_Cool_air_flow:</label>
+						<input type="text" name="High_pressure_turbines_Cool_air_flow" id="High_pressure_turbines_Cool_air_flow" class="input-text" placeholder="High_pressure_turbines_Cool_air_flow" required>
 					</div>
 
 
@@ -199,8 +199,8 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="(Low-pressure turbines Cool air flow)"> (Low-pressure turbines Cool air flow):</label>
-						<input type="text" name="(Low-pressure turbines Cool air flow)" id="(Low-pressure turbines Cool air flow)" class="input-text" placeholder="(Low-pressure turbines Cool air flow)" required>
+                        <label for="Low_pressure_turbines_Cool_air_flow"> Low_pressure_turbines_Cool_air_flow:</label>
+						<input type="text" name="Low_pressure_turbines_Cool_air_flow" id="Low_pressure_turbines_Cool_air_flow" class="input-text" placeholder="Low_pressure_turbines_Cool_air_flow" required>
 					</div>
 
 

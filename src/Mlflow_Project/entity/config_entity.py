@@ -33,15 +33,21 @@ class DataTransformationConfig:
 
 
 
+from dataclasses import dataclass 
+from pathlib import Path 
+
+
+
 @dataclass(frozen = True)
 class ModelTrainerConfig:
     root_dir: Path 
     train_data_path: Path 
     test_data_path: Path
     model_name: str
+    imputer_name: str
     alpha: float
     l1_ratio: float
-    target_column: str 
+    target_column: str  
 
 
 
@@ -49,6 +55,7 @@ class ModelTrainerConfig:
 class ModelEvaluationConfig:
     root_dir: Path
     test_data_path: Path
+    test_y: Path
     model_path: Path
     all_params: dict
     metric_file_name: Path

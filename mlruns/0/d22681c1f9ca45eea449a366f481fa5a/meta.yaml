@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/admin/Desktop/Predictive%20Maintenance/Predictive_Maintenance_With_MLops/mlruns/0/d22681c1f9ca45eea449a366f481fa5a/artifacts
+end_time: 1698743320210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d22681c1f9ca45eea449a366f481fa5a
+run_name: adaptable-shark-864
+run_uuid: d22681c1f9ca45eea449a366f481fa5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698743295497
+status: 3
+tags: []
+user_id: admin
