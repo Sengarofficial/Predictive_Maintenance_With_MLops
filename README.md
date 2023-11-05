@@ -20,7 +20,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
+https://github.com/Sengarofficial/Predictive_Maintenance_With_MLops
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
