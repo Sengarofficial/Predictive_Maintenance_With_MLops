@@ -20,7 +20,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
+https://github.com/Sengarofficial/Predictive_Maintenance_With_MLops
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -93,12 +93,12 @@ open up you local host and port
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 
+    - Save the URI: 228003619522.dkr.ecr.us-east-1.amazonaws.com/mlflowproject-user 
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
-## 5. Open EC2 and Install docker in EC2 Machine:
+## 5. Open EC2 and Install docker in EC2 Machine: co
 	
 	
 	#optinal
